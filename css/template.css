@@ -1,0 +1,798 @@
+body {
+    /* border: 2px solid green;  */
+    margin: 0;
+    position: relative;
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.headbar {
+    background-image: url(https://www.sltda.gov.lk/images/header-bg.jpg);
+    height: 40px;
+    width: auto;
+    z-index: 3;
+
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 0;
+    z-index: 3;
+    background-color: #ffffff;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 5px;
+
+    font-size: 1rem;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: #212529;
+
+}
+
+a:hover {
+    color: #ffc107;
+}
+
+.logo {
+    flex: 1
+}
+
+.navitems {
+    display: flex;
+    line-height: 20px;
+}
+
+.nav {
+    padding: 5px 12px;
+}
+
+.nav-registation {
+    background-color: #212529;
+    color: #ffc107;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.nav-registation a {
+
+    color: #ffc107;
+}
+
+.nav-registation:hover a{
+
+    color: #212529;
+}
+
+.nav-registation:hover {
+    background-color: #ffc107;
+
+}
+
+.nav-registation:hover {}
+
+.searchbar {
+    margin: 0 15px;
+
+}
+
+.searchbar-input-bar {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar-input {
+    display: none;
+    width: 100%;
+    flex: 2;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+.searchbar-input-bar button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.search-close-img-btn {
+    display: none
+}
+
+.language {
+    margin: 0 5px;
+
+}
+
+select {
+    padding: 5px;
+    border-color: gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+select:active,
+select:hover {
+    border-color: #ffc107;
+}
+
+/* main */
+.main {
+    z-index: 0;
+}
+
+/* footer */
+
+.footer {
+    background: #231f20;
+    color: white;
+
+}
+
+.footer-body {
+    background: url(https://www.sltda.gov.lk/images/foot-bg.svg);
+
+    background-size: cover;
+    grid-template-columns: 2;
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+}
+
+.footer-body-upper {
+    padding: 0 100px;
+}
+
+.footer-right-section .footer-section-item {
+    color: #ffc107;
+}
+
+.footer-body-upper {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 40px;
+    line-height: 20px;
+
+}
+
+.footer-upper-left-section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.footer-upper-right-section {}
+
+.footer-upper-right-section-contactus {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.footer-upper-right-section-main {
+    display: grid;
+    grid-template-columns: 200px auto;
+}
+
+.footer-section-item {
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+
+.footer-section-item:hover {
+    color: #ffc107;
+}
+
+.footer-upper-right-section p {
+    color: #ffc107;
+}
+
+.footer-upper-right-section a {
+    text-decoration: none;
+    color: #ffc107;
+}
+
+.footer-hr-1 {
+    color: red;
+    background-color: gray;
+    width: 100%;
+    height: 1px;
+    padding: 0 130px;
+    margin-top: 5%;
+
+    box-sizing: border-box;
+
+}
+
+.footer-middle {
+    padding: 10px
+}
+
+.footer-hr-2 {
+    color: red;
+    background-color: rgb(99, 99, 99);
+    height: 0.35px;
+    opacity: 0.5;
+
+
+}
+
+.footer-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-middle-left,
+.footer-middle-right {
+    display: flex;
+    gap: 80px
+}
+
+.footer-middle-left-1,
+.footer-middle-left-2,
+.footer-middle-right-1,
+.footer-middle-right-2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer-middle a {
+    color: white
+}
+
+.footer-middle-right-2 span {
+    color: #ffc107
+}
+
+.footer-footer {
+    background-color: #100e0e;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px 0;
+
+}
+
+
+/* main */
+
+.yellow-line {
+    background-color: #ffc107;
+    height: 5px;
+}
+
+.main-middle-card-div {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.main-middle-card {
+
+    height: 100px;
+    width: 200px;
+    border: 2px solid #ffc107;
+    border-radius: 20px;
+
+}
+.main-middle-card{
+    
+    transition:0.2s ease ;
+    transition-duration: 0.5s;
+    color:#ffffff;
+    font-weight:800;
+}
+.main-middle-card:hover{
+    box-shadow: 2px 2px 8px 2px  #ffc107;
+    color:#ffc107;
+}
+
+.main-middle-card-item-1 {
+    background:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)), url(https://www.sltda.gov.lk/storage/common_media/111468555244.jpg);
+
+    width:200px;
+    height:150px;
+    background-size: cover;
+    position:relative;
+    /* height:auto; */
+
+}
+
+.main-card-line{
+    position: absolute;
+    top:20%;
+    left:5%;
+    height:5px;
+    width:30px;
+    background-color: #ffffff;
+}
+.main-card-text{
+    position: absolute;
+    top:40%;
+    left:5%;
+
+  
+}
+.main-middle-card-item-2{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)),  url(https://www.sltda.gov.lk/storage/common_media/feul191707913.jpg);
+    width:200px;
+    height:150px;
+    background-size: cover;
+    position:relative;
+    /* background-size: cover; */
+    /* height:auto; */
+}
+
+.main-middle-card-item-3 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)),  url(https://www.sltda.gov.lk/storage/common_media/eddy-billard-JOoOPt8tTPY-unsplash1331548129.png);
+    width:200px;
+    height:150px;
+    background-size: cover;
+    position:relative;
+    /* background-size: cover; */
+    /* height:250px */
+}
+
+.main-middle-card-item-4 {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0,0,0,0.3)),  url(https://www.sltda.gov.lk/storage/common_media/eneko-urunuela-I2YSmEUAgDY-unsplash2545534402.png);
+    width:200px;
+    height:150px;
+    background-size: cover;
+    position:relative;
+    /* background-size: cover; */
+    /* height:auto; */
+}
+/*main middle background-image */
+
+.main-background{
+background-image:url(https://www.sltda.gov.lk/images/main-slide/mob-bg.jpg);
+background-size:100vw auto;
+background-repeat: no-repeat;
+padding:40px 0 0 0;
+}
+/* main background */
+.main-background h1{
+    padding-top:40px;
+    color:#fff;
+    text-align:center;
+    font-weight: 950;
+    text-shadow: 2px 2px 4px black;
+    }
+ 
+    
+.main-background-card-div{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+
+    padding:0 200px;
+   } 
+
+.main-background-card{
+    position:relative;
+
+    
+    border-radius: 20px;
+    border:2px solid  #ffc107;
+    color:#fff;
+    font-weight:600;
+    box-shadow: 2px 2px 18px 2px black;
+    transition: all 0.5s ease-out;
+   
+   }
+   .main-background-card:hover{
+   color:#ffc107;
+   background-size: 180%;
+   background-position: center;
+  
+   }
+
+
+   .main-background-1{
+    background:url(https://www.sltda.gov.lk/storage/common_media/schoolgirl-looking-notice-board-corridor_107420-891301155896489.png);
+    width:250px;
+    height:200px;
+background-size:cover;
+background-position: center;
+   }
+   .main-background-2{
+    background:url(https://www.sltda.gov.lk/storage/common_media/Custom%20Size%20%E2%80%93%201719473199.png);
+    width:250px;
+    height:200px;
+    background-position: center;
+background-size:cover;
+   }
+   .main-background-3{
+    background:url(https://www.sltda.gov.lk/storage/common_media/2-The%20New%20Gazette%20on%20Classificationof%20Tourist%20Hotels3557745490.jpg);
+    width:250px;
+    height:200px;
+    background-position: center;
+background-size:cover;
+   }
+   .main-background-4{
+    background:url(https://www.sltda.gov.lk/storage/common_media/2-Exemption%20of%20Tourism%20Development%20Levy1743293212.jpg);
+    width:250px;
+    height:200px;
+background-size:cover;
+   }
+   .main-background-5{
+    background:url(https://www.sltda.gov.lk/storage/common_media/2-The%20New%20Gazette%20on%20Classificationof%20Tourist%20Hotels3557745490.jpg);
+    width:250px;
+    height:200px;
+    background-position: center;
+background-size:cover;
+   }
+   .main-background-6{
+    background:url(https://www.sltda.gov.lk/storage/common_media/2-Residence%20Visa%20for%20Expatriate%20in%20Tourism%20Establishments%20Registered%20with%20SLTDA1605250381.jpg);
+    width:250px;
+    height:200px;
+    background-position: center;
+background-size:cover;
+
+
+   }
+
+   .main-background-text{
+    position:absolute;
+    bottom:10%;
+    left:5%;
+
+    
+   }
+   /* animated-card-div */
+   .animated-card-div{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap:50px;
+    margin:150px 50px;
+
+   }
+
+   .animated-card{
+    border:2px solid  #ffc107;
+    border-radius: 20px;
+    background-color:rgba(0, 0, 0, 0.3);
+    padding:5px;
+
+    transition-duration: 2s;
+
+   }
+   .animated-card:hover{
+    
+    background-color:rgba(255,193,07,0.6);
+  
+
+    position: relative;
+    top:20px;
+    
+
+   }
+   .ani-card-2, .ani-card-4{
+    margin-top:50px;
+   }
+   .ani-card-1, .ani-card-3{
+    margin-bottom:50px;
+   
+   }
+   .animated-card a{
+  color:white;
+  height:300px;
+   }
+   .animated-card a:hover{
+    text-decoration: underline;
+     }
+   .animated-card h1{
+    font-size:20px;
+    opacity:1;
+   }
+   .animated-card li{
+    list-style: none
+   }
+   .animated-card li{
+    padding:5px 0;
+   }
+.positioned-card{
+    position:relative;
+}
+   .positioned-card-image{
+    background-image: url(https://www.sltda.gov.lk/images/portals-bg.jpg);
+    opacity:0.8;
+    width:400px;
+    height:400px;
+    margin:50px 0 0 0;
+    padding-top:150px;
+    padding-left:30px;
+    box-sizing: border-box;
+
+    color:white;
+    font-weight: 900;
+
+    
+   }
+
+   .positioned-card-image-head{
+    font-size: 30px;
+    font-weight: 900;
+   }
+
+   .positioned-card-card-div{
+position:absolute;
+top:80px;
+left:330px;
+
+
+display:flex;
+gap:25px;
+   }
+
+   .positioned-card-card{
+     width:200px;
+     height:250px;
+     
+    border:2px solid #ffc107;
+     border-radius: 30px;
+     overflow: hidden;
+   }
+
+   .positioned-card-upper-image{
+    width:200px;
+    height:200px;
+    background-size: cover;
+   }
+   .positioned-card-upper-image-1{
+    background-image: url(https://www.sltda.gov.lk/storage/common_media/sri-lankan-travel3413220511.jpg);
+    /* width:100px;
+    height:200px; */
+   }
+   .positioned-card-upper-image-2{
+    background-image: url(https://www.sltda.gov.lk/storage/common_media/tourism-awards520082202.jpg);
+    /* width:100px;
+    height:200px; */
+   }
+   .positioned-card-upper-image-3{
+    background-image: url(https://www.sltda.gov.lk/storage/common_media/05-National%20Holiday%20Resort2810490742.jpg);
+    /* width:100px;
+    height:200px; */
+   }
+   .positioned-card-upper-image-4{
+    background-image: url(https://www.sltda.gov.lk/storage/common_media/sl-institute-of-tourism4152086018.jpg);
+    background-position: center;
+    /* width:100px;
+    height:200px; */
+   }
+
+   .positioned-card-foot-text{
+    background-color: white;
+    padding:10px 0;
+    height:80px;
+    padding:10px 10px;
+
+    font-size: 15px;
+   }
+
+   .positioned-card-card:hover .positioned-card-upper-image{
+        background-size: 120%;
+   }
+
+   /* background-video */
+
+   .background-video{
+    overflow: hidden;
+    margin:0;
+    padding:0;
+
+    position:relative;
+   }
+
+   .background-video-text{
+    position:absolute;
+    top:10%;
+    left:6%;
+    width:450px;
+    
+    color:white;
+   }
+   .background-video-welcome{
+font-size: 35px;
+font-weight:100;
+line-height:35px;
+font-family: 'Raleway', sans-serif;
+   }
+.background-video-cohead{
+    font-size: 24px;
+    font-weight:400;
+    line-height:35px;
+    margin:10px 0;
+       }
+.background-video-head{
+        font-size: 30px;
+        font-weight:800;
+        line-height:35px;
+        color:#ffc107;
+        padding:5px 0;
+        margin:10px 0;
+           }
+
+.background-video-p{
+word-spacing: 10;
+text-align:justify;
+margin-top:15px;
+    }
+
+/* .background-video-horzentalline{
+        position: absolute;
+        bottom:30%;
+
+        height:0.1px;
+        width:100%;
+        background-color: rgb(97, 97, 97)
+} */
+.background-video-readmore-btn::after
+{
+    content: " ";
+    height: 1px;
+    display: block;
+    position: absolute;
+    right: 100%;
+    top: 45%;
+    background: #fff;
+    opacity: .2;
+    width: 100vw;
+}
+.background-video-readmore-btn::before{
+    content: " ";
+    height: 1px;
+    display: block;
+    position: absolute;
+    left: 100%;
+    top: 45%;
+    background: #fff;
+    opacity: .2;
+    width: 100vw;
+}
+.background-video-readmore-btn{
+    position: absolute;
+    bottom:25%;
+    left:10%;
+    z-index:2;
+    /* background-color: #231f20;
+    opacity: 0.1; */
+
+    height:60px;
+    border:1px solid white;
+    
+    border-radius:50px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+
+    background-color: inherit;
+}
+.background-video-readmore-btn:hover p,.background-video-readmore-btn:hover{
+   color:#ffc107;
+   border-color:#ffc107;
+}
+
+.background-video-readmore-btn p{
+  margin:5px 5px 10px 5px;
+    color:white;
+    
+}
+
+.background-video-readmore-btn i{
+   border:2px solid #ffc107;;
+   border-radius: 50px; 
+    padding:5px;
+    margin:0 5px;
+   
+}
+
+.background-video-footer-animation-btn{
+    position: absolute;
+    bottom:10%;
+    left:48%;
+
+    width:10px;
+    height: 25px;
+    border:1.5px solid white;
+border-radius:50px;
+padding:15px 10px;
+
+
+}
+
+
+.background-video-footer-animation{
+   
+    margin:auto;
+    width:3.5px;
+    height: 8px;
+    background-color: #ffc107;
+border-radius:10px;
+
+animation: updown 2s linear infinite;
+}
+@keyframes updown {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(30px);
+        opacity: 0.1;
+    }
+}
+
+.background-video-control{
+    position: absolute;
+    top:32%;
+    left:90%;
+
+    width: 50px;
+    height:50px;
+    border:1px solid white;
+    border-radius:100px;
+    
+}
+.background-video-pause-section{
+    
+    width:100%;
+    height:100%;
+    border-radius:100px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+}
+.background-video-play-section{
+    display:none;
+    width:100%;
+    height:100%;
+    border-radius:100px;
+
+    
+    flex-direction:column;
+    justify-content: center;
+}
+.background-video-control-btn-div{
+margin: auto;
+
+display:flex;
+justify-content: center;
+gap:2px;
+}
+.background-video-control-btn-side{
+    
+width:5px;
+height:10px;
+background-color: #ffc107;
+}
+
+.background-video-control-btn-trangle{
+   
+    width:0; 
+    height: 0; 
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent; 
+    
+    border-left:8px solid #ffc107;
+    
+}

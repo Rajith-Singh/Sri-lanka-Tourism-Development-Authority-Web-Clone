@@ -1,0 +1,440 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&family=Yellowtail&display=swap');
+
+/* all element */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* whole body */
+body{
+    width: 100%;
+    font-family: 'roboto' , sans-serif;
+}
+/* Header */
+.headbar {
+    background-image: url(https://www.sltda.gov.lk/images/header-bg.jpg);
+    height: 40px;
+    width: auto;
+    z-index: 3;
+
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+
+    top: 0;
+    z-index: 3;
+    background-color: #ffffff;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    padding-top: 5px;
+
+    font-size: 1rem;
+    box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.4);
+
+}
+
+.navbar a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    line-height: 20px;
+    color: #212529;
+    font-family: 'Raleway',sans-serif;
+
+}
+
+a:hover {
+    color: #ffc107;
+}
+
+.logo {
+    flex: 1
+}
+
+.navitems {
+    display: flex;
+    line-height: 20px;
+}
+
+.nav {
+    padding: 5px 12px;
+}
+
+.nav-registation {
+    background-color: #212529;
+    color: #ffc107;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+
+.nav-registation a {
+
+    color: #ffc107;
+}
+
+.nav-registation a:hover {
+
+    color: #212529;
+}
+
+.nav-registation:hover {
+    background-color: #ffc107;
+
+}
+
+.nav-registation:hover {}
+
+.searchbar {
+    margin: 0 15px;
+
+}
+
+.searchbar-input-bar {
+    display: flex;
+    align-items: center;
+}
+
+.searchbar-input {
+    display: none;
+    width: 100%;
+    flex: 2;
+    border-radius: 5px;
+    padding: 8px;
+
+}
+
+.searchbar-input-bar button {
+    outline: none;
+    border: none;
+    background: none;
+}
+
+.search-close-img-btn {
+    display: none
+}
+
+.language {
+    margin: 0 5px;
+
+}
+
+select {
+    padding: 5px;
+    border-color: gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+select:active,
+select:hover {
+    border-color: #ffc107;
+}
+/* banner  */
+.banner{
+    width: 100%;
+    height: 60vh;
+    background: url(https://www.sltda.gov.lk/images/contact-us-cover.jpg);
+    background-size: cover;
+}
+
+.banner-area{
+    position: relative;
+}
+
+.banner .banner-head{
+    width: 100%;
+    height: 100px;
+}
+
+.banner .banner-head h1{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 2.5rem;
+    font-weight: bold;
+    top: 30vh;
+    transition: all 0.2s ease-in;
+    font-family: 'Metropolis-black', Arial, sans-serif;
+    font-stretch:condensed;
+}
+
+.banner-line{
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(235, 192, 52);
+    top: 76vh;
+}
+
+
+/* container */
+
+.container{
+    width: 100%;
+    margin-top: 70px;
+    padding: 0;
+}
+
+
+/* container-left */
+.container-left{
+    float: left;
+    width: 20%;
+    box-sizing: border-box;
+    padding: 50px 40px;      
+}
+
+.container-list{
+    list-style-type: none;
+}
+
+.container-list li{
+    padding: 20px 0 ;
+    border-bottom: #100303 1px  solid;
+    line-height: 12px;
+}
+
+.container-list a{
+    text-decoration: none;
+    color: #100303;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+    font-family: 'Raleway',sans-serif;
+}
+
+.container-list a:hover{
+    color: rgb(237, 171, 4);
+    cursor: pointer;
+}
+
+.container-list span{
+    margin-right: 10px;
+}
+
+
+/* container-right */
+.container-right{
+    float: right;
+    width: 80%;
+    box-sizing: border-box;
+    display: flex;
+   
+}
+
+.contact-section{
+    width: 33.33%;
+    margin-top: 20px;
+    padding: 30px;
+}
+
+/* contact-section1 */
+.section1{
+    text-align: center;
+}
+.section1 img{
+    width: 30px;
+    height: 30px;
+}
+.section1 h1{
+    font-size: 4rem;
+    font-weight: 500;
+    letter-spacing: -5px;
+    
+}
+.section1 .contact-info{
+    margin:20px 0;
+    
+}
+.section1 .contact-info p{
+    text-align: justify;
+    font-family: 'TT Commons Thin', sans-serif;
+    font-weight:lighter;
+    font-size: 1.15rem;
+    line-height: 1.7rem;
+}
+
+/* contact-section2 */
+.section2 .img,
+.section2 h1{
+    text-align: center;
+}
+.section2 h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 15px 0;  
+}
+
+
+/* section3 */
+.section3 .img,
+.section3 h1{
+    text-align: center;
+}
+.section3 h1{
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 15px 0 ;
+}
+
+/* section2 and section3  */
+
+.contact-info{
+    display: block;
+    font-family: 'TT Commons Thin', sans-serif;
+    font-weight:lighter;
+    font-size: 1.15rem;
+    line-height: 1.7rem;
+}
+.contact-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px ;
+    
+}
+.contact-list img{
+    margin-right: 8px;
+}
+.contact-list span:nth-child(2){
+    font-family: 'TT Commons Thin', sans-serif;
+    font-weight:lighter;
+    font-size: 1.15rem;
+    line-height: 1.7rem;
+}
+.contact-text{
+    position: absolute;
+    left: 50%;
+    font-family: 'TT Commons Thin', sans-serif;
+    font-weight:lighter;
+    font-size: 1.15rem;
+    line-height: 1.7rem;
+    transition: all 0.2s ease-in;
+}
+
+.section1 , 
+.section2{
+    border-right: solid 1px #000;
+}
+
+
+.clear{
+    clear: both;
+}
+
+
+/* other contact */
+.other-info{
+    float: left;
+    width:20%;
+    padding: 50px 30px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    transition: all 0.3s ease-in;
+}
+.other-info-list{
+    list-style-type: none;
+}
+.other-info-list li{
+    padding: 20px 0;
+    border-bottom: #100303 1px  solid;
+    line-height: 12px;
+}
+.other-info-list li a{
+    text-decoration: none;
+    color: #100303;
+    font-size: 0.7rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: all 0.3s ease-in-out;
+}
+.other-info-list li a:hover{
+    color: rgb(237, 171, 4);
+    cursor: pointer;
+}
+.other-info-list span{
+    margin-right: 10px;
+}
+
+/* contact map */
+.contact-map{
+    /* float: right; */
+    margin:160px 0px;
+    margin-left: 250px;
+    overflow: hidden;
+}
+.contact-map iframe{
+    transition: all 0.3s ease-in;
+}
+
+
+/* resposive */
+@media (max-width:1200px){
+
+    .banner .banner-head h1{
+        font-size: 3.2rem;
+    }
+    .section1 .contact-info p{
+        text-align: justify;
+        line-height: 1.4rem;
+        font-size: 0.8rem;
+    }
+    .contact-text{
+        position: absolute;
+        left: 55%;
+        font-size: 0.6rem;
+    }
+    .contact-map iframe{
+        width: 800px;   
+        margin-right:100px;
+    }
+    /* .contact-list span:nth-child(2){
+        font-size: ;
+    } */
+}   
+@media (max-width:1080px){
+
+    .banner .banner-head h1{
+        font-size: 3rem;
+    }
+    .contact-map iframe{
+        width: 800px;
+    }
+    .section1 .contact-info p{
+        text-align: justify;
+        line-height: 1.2rem;
+        font-size: 0.8rem;
+    }
+
+    .contact-list span:nth-child(2){
+        font-size: 0.7rem;
+    }
+    .contact-text{
+        position: absolute;
+        left: 60%;
+        font-size: 0.6rem;
+    }
+    .other-info{
+        width: 25%;
+        padding: 50px 30px;
+        margin-top: 50px;
+        
+    }
+    .contact-map iframe{
+        width: 600px;
+        margin-right: 200px;
+    }
+}
